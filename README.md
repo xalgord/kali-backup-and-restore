@@ -10,6 +10,10 @@ You may need to install zip if it's not installed:
 sudo apt-get install zip
 ```
 
+```bash
+sudo apt-get install dconf-cli
+```
+
 The script stores temporary files in ~/kali-backup before creating the zip archive and automatically cleans up the folder once the zip file is created.
 
 ### Usage
